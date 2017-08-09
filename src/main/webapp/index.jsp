@@ -10,7 +10,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <title>敏捷数据安全卫士系统</title>
 <link rel="stylesheet" type="text/css" href="${contextPath}/js/extjs/packages/ext-theme-crisp/build/resources/ext-theme-crisp-all.css" />
-<link rel="stylesheet" type="text/css" href="${contextPath}/css/dgs.css" />	
+<link rel="stylesheet" type="text/css" href="${contextPath}/css/main.css" />	
 <script type="text/javascript" src="${contextPath}/js/extjs/ext-all.js"></script>
 <script type="text/javascript">
 	Ext.ns('Com.panel');
