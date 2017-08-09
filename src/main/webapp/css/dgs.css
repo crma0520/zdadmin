@@ -1,0 +1,120 @@
+
+
+/*head*/
+.head{height:70px; background:url(../image/system/head_Systemname.png) repeat-x;  position:relative;color:#fff;font-size:15px}
+.System_Name{height:70px; line-height:70px; }
+.headright{ height:70px; position:absolute; left:700px; top:0px; right:0px; z-index:1; background:url(../image/system/head_bg.png) repeat-x;}
+.quick_nav{ height:31px;position:absolute; right:280px; bottom:15px; z-index:2}
+.quick_nav ul li{ float:left; margin-left:3px; width:85px; height:31px; line-height:31px; text-align:center; display:block; background:url(../image/system/head_btn_bg.png) no-repeat; }
+.quick_nav ul li a{ color:#dce7ef; display:block; height:31px; text-decoration: none; font-family: 'Microsoft YaHei';}
+.quick_nav ul li a:hover{ background:url(../image/system/head_btnhover_bg.png) no-repeat; text-decoration:none;color:#fff}
+
+.btnselect{background:url(../image/system/head_btnselect_bg.png) no-repeat !important;}
+.btnselect a{color:#4690ba !important;}
+
+.quick_right{ height:31px;position:absolute; right:10px; bottom:10px;z-index:2;font-size:12px}
+.quick_right ul li{ float:left; height:31px; line-height:31px; text-align:center; display:block; }
+.quick_right ul li a{ color:#dce7ef; display:block; padding:0 6px 0 6px; height:31px; text-decoration: none; font-family: 'Microsoft YaHei';}
+.quick_right ul li a:hover{ text-decoration:none;color:#fff}
+.user_name{color:#ffe749;margin-right:6px;}
+
+/*welcome page*/
+.welcome{ width:100%; height:100%; background:url(../image/system/welcome.png) no-repeat; background-size:contain; background-position:center; position:relative;}
+/*footer*/
+.footer{height:20px; background:url(../image/system/footer.png) repeat-x;  position:relative;color:#dce7ef;font-size:11px;text-align:center;}
+
+/*login*/
+.l-box-container{ width:100%; height:100%; text-align:center; position:absolute; background:#fff url(../image/system/Background.png); background-size:cover; }
+.l-box-middleBg{height:572px; border:solid 0px #red; text-align:center; width:100%; margin:auto auto;  background:url(../image/system/BackgroundAbove.png) no-repeat; background-position: center bottom;}
+.l-box-Systemname{height:100px; background: url(../image/system/Logo.png) no-repeat; background-position: center bottom; position:relative}
+.l-box-middle{height:396px; padding-top:5px;background:url(../image/system/Main.png); background-position: center;}
+.middle-layout{ width:779px; margin:0px auto; text-align:left; }
+.l-box-login{ width:316px; height:296px; background:#FFFFFF; margin-left:340px; margin-top:50px; position:relative}
+.l-box-login-title{ height:39px; line-height:39px; color:#be5f03; font-size:20px; font-weight:bold; font-family:΢���ź�; }
+.l-box-login-title span{color:a8a8a8;,font-weight:normal;font-size:15px;}
+/*.l-box-login-version{height:40px; width:286px;line-height:40px;background:#fff; padding-left:29px;color:#b7b7b7; bottom:0px;font-size:12px}*/
+.l-box-bottom{height:40px;border:solid 2px #red; text-align:center; color:#f7f7f7;font-size:12px}
+.l-box-login-checkbox{ padding-left:82px; height:20px; line-height:20px; margin-top:10px; font-size:12px; color:#848484;vertical-align:middle;}
+.l-box-login-btnbox{ height:33px; margin-top:28px; background-color:#4690ba;  }
+.l-box-login-inputbox{  height:33px; margin-top:20px; color:#71a6be; vertical-align:middle; position:relative;}
+.input_text{padding:8px 0 5px 35px;background-color:#ecf5fa;background-repeat: no-repeat;  border:0.5px solid #71a6be; height:100%;width:100%;padding-left:35px;}
+.input_validateCode_text{padding:8px 0 5px 35px;background-color:#ecf5fa;background-repeat: no-repeat;  border:0.5px solid #71a6be; height:100%;width:70%;padding-left:35px;}
+#dlm{background-image: url(../image/system/dlm.png); }
+#mm{background-image: url(../image/system/mm.png); }
+#validateId{background-image: url(../image/system/mm.png); }
+/*button*/
+.span-login {height:33px; width:100%; text-align:center;display: inline-block;  color:#fff; padding-top:10px;text-shadow: 0px -1px 0px #5b6ddc;font-size: 18px;}
+.btn_blue hover span { background:url(../image/too_btn_bg.jpg) no-repeat right -33px;}
+#info{color:red;font-family: 'Microsoft YaHei';}
+
+/*��¼ҳ���ά����ʾ*/
+.clientBar a:hover .chatTips {display: block;}
+.chatTips{background-color: #ffffff;display: none;padding: 10px;position: absolute;right: 78px;top: 400px;}
+
+/*��ַ����꾭��ʱ�ı�������ɫ��DMǰ̨��*/
+.addressBar a:hover{ text-decoration:none; color:#4690ba}
+
+/*��֯����ͼ����ʽ*/
+.icon-tree-enterprise{background: url('../image/common/enterprise.png') no-repeat !important;}
+.icon-tree-department{background: url('../image/common/department.png') no-repeat !important;}
+
+/*��ɫ��ͼ����ʽ*/
+.icon-tree-roleType{background: url('../image/common/role.png') no-repeat !important;}
+/*������ͼ����ʽ*/
+.icon-tree-menu{background: url('../image/common/treeMenu.png') no-repeat !important;}
+.icon-tree-btn{background: url('../image/common/treeBtn.png') no-repeat !important;}
+
+/*���ܲ˵�ͼƬ*/
+.icon-menu-clientUpdate{background: url('../image/menu/clientUpdate.png') no-repeat !important;}
+.icon-menu-role{background: url('../image/menu/role.png') no-repeat !important;}
+.icon-menu-auth{background: url('../image/menu/auth.png') no-repeat !important;}
+.icon-menu-organization{background: url('../image/menu/organization.png') no-repeat !important;}
+.icon-menu-sysOperatorLog{background: url('../image/menu/sysOperatorLog.png') no-repeat !important;}
+.icon-menu-user{background: url('../image/menu/user.png') no-repeat !important;}
+.icon-menu-classicDoc{background: url('../image/menu/classicDoc.png') no-repeat !important;}
+.icon-menu-userGroup{background: url('../image/menu/userGroup.png') no-repeat !important;}
+.icon-menu-docOperatorLog{background: url('../image/menu/docOperatorLog.png') no-repeat !important;}
+.icon-menu-hotTag{background: url('../image/menu/hotTag.png') no-repeat !important;}
+.icon-menu-comment{background: url('../image/menu/comment.png') no-repeat !important;}
+.icon-menu-folderType{background: url('../image/menu/folderType.png') no-repeat !important;}
+.icon-menu-docType{background: url('../image/menu/docType.png') no-repeat !important;}
+.icon-menu-accreditation{background: url('../image/menu/accreditation.png') no-repeat !important;}
+.icon-menu-systemSet{background: url('../image/menu/systemSet.png') no-repeat !important;}
+.icon-menu-ad{background: url('../image/menu/ad.png') no-repeat !important;}
+.icon-menu-terminal{background: url('../image/menu/terminal.png') no-repeat !important;}
+.icon-menu-software{background: url('../image/menu/software.png') no-repeat !important;}
+.icon-menu-securityPolicyTemplate{background: url('../image/menu/securityPolicyTemplate.png') no-repeat !important;}
+.icon-menu-dataDictionary{background: url('../image/menu/dataDictionary.png') no-repeat !important;}
+.icon-menu-fdCompany{background: url('../image/menu/fdCompany.png') no-repeat !important;}
+.icon-menu-fdRecord{background: url('../image/menu/fdRecord.png') no-repeat !important;}
+.icon-menu-fdTemplate{background: url('../image/menu/fdTemplate.png') no-repeat !important;}
+.icon-menu-userPolicy{background: url('../image/menu/userPolicy.png') no-repeat !important;}
+.icon-menu-workflow{background: url('../image/menu/workflow.png') no-repeat !important;}
+.icon-menu-archiveRecord{background: url('../image/menu/archiveRecord.png') no-repeat !important;}
+.icon-menu-fileOperatorLog{background: url('../image/menu/filingOperatorLog.png') no-repeat !important;}
+.icon-menu-userFilingFlow{background: url('../image/menu/userFilingFlow.png') no-repeat !important;}
+.icon-menu-metaDataType{background: url('../image/menu/metaDataType.png') no-repeat !important;}
+.icon-menu-fdSet{background: url('../image/menu/fdSet.png') no-repeat !important;}
+.icon-menu-sAGAppServer{background: url('../image/menu/sAGAppServer.png') no-repeat !important;}
+.icon-menu-sAGWhiteList{background: url('../image/menu/sAGWhiteList.png') no-repeat !important;}
+.icon-menu-sAGLog{background: url('../image/menu/filingOperatorLog.png') no-repeat !important;}
+.icon-menu-sAGStatus{background: url('../image/menu/filingOperatorLog.png') no-repeat !important;}
+.icon-menu-backDatabase{background: url('../image/menu/backDatabase.png') no-repeat !important;}
+.icon-menu-pdLog{background: url('../image/menu/filingOperatorLog.png') no-repeat !important;}
+.icon-menu-userTerminal{background: url('../image/menu/sysOperatorLog.png') no-repeat !important;}
+.icon-menu-mdmTemplate{background: url('../image/menu/mdmTemplate.png') no-repeat !important;}
+.icon-menu-mdmTerminal{background: url('../image/menu/mdmTerminal.png') no-repeat !important;}
+.icon-menu-mdmTerminalLose{background: url('../image/menu/mdmTerminalLose.png') no-repeat !important;}
+.icon-menu-mdmDocScan{background: url('../image/menu/mdmDocScan.png') no-repeat !important;}
+.icon-menu-mdmTerminalAction{background: url('../image/menu/mdmTerminalAction.png') no-repeat !important;}
+.icon-menu-mdmTerminalWarn{background: url('../image/menu/mdmTerminalWarn.png') no-repeat !important;}
+.icon-menu-mdmOperatorLog{background: url('../image/menu/mdmOperatorLog.png') no-repeat !important;}
+.icon-menu-storageDevice{background: url('../image/menu/software.png') no-repeat !important;}
+
+/*����*/
+#rateStatus {float: left;clear: both;width: 100%;height: 20px;}
+#rateMe {clear: both;width: 100%;padding: 0px;margin: 0px;}
+#rateMe li {float: left;list-style: none;}
+#rateMe li a:hover,#rateMe .on {background: url(../image/comment/star_on.gif) no-repeat;	width: 20px;height: 20px;}
+#rateMe a {float: left;background: url(../image/comment/star_off.gif) no-repeat;width: 20px;height: 20px;}
+#ratingSaved {display: none;}
