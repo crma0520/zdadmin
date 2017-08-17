@@ -26,11 +26,11 @@
 /*login*/
 .l-box-container{ width:100%; height:100%; text-align:center; position:absolute; background:#fff url(../image/system/Background.png); background-size:cover; }
 .l-box-middleBg{height:572px; border:solid 0px #red; text-align:center; width:100%; margin:auto auto;  background:url(../image/system/BackgroundAbove.png) no-repeat; background-position: center bottom;}
-.l-box-Systemname{height:100px; background: url(../image/system/Logo.png) no-repeat; background-position: center bottom; position:relative}
+.l-box-Systemname{height:100px; background-position: center bottom; position:relative}
 .l-box-middle{height:396px; padding-top:5px;background:url(../image/system/Main.png); background-position: center;}
 .middle-layout{ width:779px; margin:0px auto; text-align:left; }
 .l-box-login{ width:316px; height:296px; background:#FFFFFF; margin-left:340px; margin-top:50px; position:relative}
-.l-box-login-title{ height:39px; line-height:39px; color:#be5f03; font-size:20px; font-weight:bold; font-family:΢���ź�; }
+.l-box-login-title{ height:39px; line-height:39px; color:#be5f03; font-size:20px; font-weight:bold; font-family:微锟斤拷锟脚猴拷; }
 .l-box-login-title span{color:a8a8a8;,font-weight:normal;font-size:15px;}
 /*.l-box-login-version{height:40px; width:286px;line-height:40px;background:#fff; padding-left:29px;color:#b7b7b7; bottom:0px;font-size:12px}*/
 .l-box-bottom{height:40px;border:solid 2px #red; text-align:center; color:#f7f7f7;font-size:12px}
@@ -47,24 +47,24 @@
 .btn_blue hover span { background:url(../image/too_btn_bg.jpg) no-repeat right -33px;}
 #info{color:red;font-family: 'Microsoft YaHei';}
 
-/*��¼ҳ���ά����ʾ*/
+/*锟斤拷录页锟斤拷锟轿拷锟斤拷锟绞�*/
 .clientBar a:hover .chatTips {display: block;}
 .chatTips{background-color: #ffffff;display: none;padding: 10px;position: absolute;right: 78px;top: 400px;}
 
-/*��ַ����꾭��ʱ�ı�������ɫ��DMǰ̨��*/
+/*锟斤拷址锟斤拷锟斤拷昃拷锟绞憋拷谋锟斤拷锟斤拷锟斤拷锟缴拷锟紻M前台锟斤拷*/
 .addressBar a:hover{ text-decoration:none; color:#4690ba}
 
-/*��֯����ͼ����ʽ*/
+/*锟斤拷织锟斤拷锟斤拷图锟斤拷锟斤拷式*/
 .icon-tree-enterprise{background: url('../image/common/enterprise.png') no-repeat !important;}
 .icon-tree-department{background: url('../image/common/department.png') no-repeat !important;}
 
-/*��ɫ��ͼ����ʽ*/
+/*锟斤拷色锟斤拷图锟斤拷锟斤拷式*/
 .icon-tree-roleType{background: url('../image/common/role.png') no-repeat !important;}
-/*������ͼ����ʽ*/
+/*锟斤拷锟斤拷锟斤拷图锟斤拷锟斤拷式*/
 .icon-tree-menu{background: url('../image/common/treeMenu.png') no-repeat !important;}
 .icon-tree-btn{background: url('../image/common/treeBtn.png') no-repeat !important;}
 
-/*���ܲ˵�ͼƬ*/
+/*锟斤拷锟杰菜碉拷图片*/
 .icon-menu-clientUpdate{background: url('../image/menu/clientUpdate.png') no-repeat !important;}
 .icon-menu-role{background: url('../image/menu/role.png') no-repeat !important;}
 .icon-menu-auth{background: url('../image/menu/auth.png') no-repeat !important;}
@@ -111,7 +111,7 @@
 .icon-menu-mdmOperatorLog{background: url('../image/menu/mdmOperatorLog.png') no-repeat !important;}
 .icon-menu-storageDevice{background: url('../image/menu/software.png') no-repeat !important;}
 
-/*����*/
+/*锟斤拷锟斤拷*/
 #rateStatus {float: left;clear: both;width: 100%;height: 20px;}
 #rateMe {clear: both;width: 100%;padding: 0px;margin: 0px;}
 #rateMe li {float: left;list-style: none;}

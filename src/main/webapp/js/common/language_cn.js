@@ -23,7 +23,7 @@ var LANGUAGE_CN = {
 	COM_SYS_LOGIN_BUTTON:'登<span style="margin-left:30px"></span>录',
 	COM_SYS_QUIT_SYSTEM : '您是否确认退出？',
 	COM_SYS_LOGIN:'用户登录',
-	COM_SYS_COMPANY:'Copyright©江苏敏捷科技股份有限公司',
+	COM_SYS_COMPANY:'Copyright@crma',
 	COM_SYS_TIPS_USERNAME:'用户名不能为空！',
 	COM_SYS_TIPS_PASSWORD:'密码不能为空！',
 	COM_SYS_TIPS_VALIDATE:'验证码不能为空！',
