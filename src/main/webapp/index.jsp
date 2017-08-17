@@ -8,7 +8,7 @@
 <c:set var="contextPath" value="${pageContext.request.contextPath}"></c:set>
 
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<title>敏捷数据安全卫士系统</title>
+<title>ZD后台管理系统</title>
 <link rel="stylesheet" type="text/css" href="${contextPath}/js/extjs/packages/ext-theme-crisp/build/resources/ext-theme-crisp-all.css" />
 <link rel="stylesheet" type="text/css" href="${contextPath}/css/main.css" />	
 <script type="text/javascript" src="${contextPath}/js/extjs/ext-all.js"></script>
@@ -18,11 +18,12 @@
 </script>
 <script type="text/javascript">   
 	Ext.onReady(function() {
+		CONTEXTPATH = '${contextPath}';
 		LANGUAGE_PACKAGE = Com.util.getSysLanguage();
 		VERSION = '';
 		LOGGING = new Ext.Viewport({
 			layout : 'fit',
-			items : [new Com.panel.Login("")]
+			items : [new Com.panel.Login()]
 		});
 		Ext.EventManager.onWindowResize(function(width, height) {
 			LOGGING.doLayout();

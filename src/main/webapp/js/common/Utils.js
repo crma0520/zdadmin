@@ -8,10 +8,10 @@
  */
 Com.util.getSysLanguage = function() {
 	var object = '';
-	if(DGS_CONSTANTS_LANGUAGE == 1){
+	if(COM_CONSTANTS_LANGUAGE == 1){
 		//中文
 		object = LANGUAGE_CN;
-	}else if(DGS_CONSTANTS_LANGUAGE == 2){
+	}else if(COM_CONSTANTS_LANGUAGE == 2){
 		//英文
 		object = LANGUAGE_US;
 	}
@@ -43,8 +43,8 @@ Com.util.checkPass = function(pass){
 Com.util.commAlert = function(args) {
 
 	var config = {
-		title : LANGUAGE_PACKAGE['DGS_COMM_TIPS'],
-		message : LANGUAGE_PACKAGE['DGS_COMM_DEFAULT_SUCCESS_MSG'],
+		title : LANGUAGE_PACKAGE['COM_COMM_TIPS'],
+		message : LANGUAGE_PACKAGE['COM_COMM_DEFAULT_SUCCESS_MSG'],
 		icon : Ext.Msg.INFO,
 		closable : false
 	};
@@ -71,8 +71,8 @@ Com.util.PagingToolbar = Ext.extend(Ext.PagingToolbar, {
 			autoShow : true,
 			items : ['-', '&nbsp;', combo],
 			displayInfo : displayInfo == null ? true : displayInfo,
-			displayMsg : LANGUAGE_PACKAGE['DGS_COMM_DISPLAY_MSG'],//'显示第 {0} 条到 {1} 条记录,一共 {2} 条',
-			emptyMsg : LANGUAGE_PACKAGE['DGS_COMM_EMPTY_MSG'],//'没有符合条件的记录',
+			displayMsg : LANGUAGE_PACKAGE['COM_COMM_DISPLAY_MSG'],//'显示第 {0} 条到 {1} 条记录,一共 {2} 条',
+			emptyMsg : LANGUAGE_PACKAGE['COM_COMM_EMPTY_MSG'],//'没有符合条件的记录',
 			plugins : new Ext.ux.ProgressBarPager()
 		})
 	}
@@ -89,10 +89,10 @@ Com.util.pagesize_combo = Ext.extend(Ext.form.ComboBox, {
 			minChars : 10,
 			store : new Ext.data.ArrayStore({
 				fields : ['value', 'text'],
-				data : [[10, LANGUAGE_PACKAGE['DGS_COMM_PAGE10']],
-						[20, LANGUAGE_PACKAGE['DGS_COMM_PAGE20']], 
-						[50, LANGUAGE_PACKAGE['DGS_COMM_PAGE50']],
-						[100, LANGUAGE_PACKAGE['DGS_COMM_PAGE100']]]
+				data : [[10, LANGUAGE_PACKAGE['COM_COMM_PAGE10']],
+						[20, LANGUAGE_PACKAGE['COM_COMM_PAGE20']], 
+						[50, LANGUAGE_PACKAGE['COM_COMM_PAGE50']],
+						[100, LANGUAGE_PACKAGE['COM_COMM_PAGE100']]]
 			}),
 			valueField : 'value',
 			displayField : 'text',
